@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66094A582C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 66094A572C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition */; };
-		66094A592C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 66094A572C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition */; };
+		66094A5C2C1F67550029DDCB /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66094A5B2C1F67550029DDCB /* Date+Ext.swift */; };
+		66094A5D2C1F67550029DDCB /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66094A5B2C1F67550029DDCB /* Date+Ext.swift */; };
 		665DD0D82C1B719100FFF95B /* MonthlyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665DD0D72C1B719100FFF95B /* MonthlyAppApp.swift */; };
 		665DD0DA2C1B719100FFF95B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665DD0D92C1B719100FFF95B /* ContentView.swift */; };
 		665DD0DC2C1B719200FFF95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665DD0DB2C1B719200FFF95B /* Assets.xcassets */; };
@@ -48,8 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		66094A572C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MonthlyWidgetIntents.intentdefinition; sourceTree = "<group>"; };
 		66094A5A2C1F49CD0029DDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		66094A5B2C1F67550029DDCB /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		665DD0D42C1B719100FFF95B /* MonthlyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonthlyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665DD0D72C1B719100FFF95B /* MonthlyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyAppApp.swift; sourceTree = "<group>"; };
 		665DD0D92C1B719100FFF95B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 				665DD0F22C1B71AA00FFF95B /* MonthlyAppWidget.swift */,
 				665DD0FE2C1BA35E00FFF95B /* MonthConfig.swift */,
 				665DD1012C1BA7E400FFF95B /* Color+Ext.swift */,
+				66094A5B2C1F67550029DDCB /* Date+Ext.swift */,
 				665DD0F42C1B71AA00FFF95B /* Assets.xcassets */,
 				665DD0F62C1B71AA00FFF95B /* Info.plist */,
-				66094A572C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition */,
 			);
 			path = MonthlyAppWidget;
 			sourceTree = "<group>";
@@ -250,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				665DD0DA2C1B719100FFF95B /* ContentView.swift in Sources */,
-				66094A582C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition in Sources */,
 				665DD0D82C1B719100FFF95B /* MonthlyAppApp.swift in Sources */,
+				66094A5C2C1F67550029DDCB /* Date+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 			files = (
 				665DD0F12C1B71AA00FFF95B /* MonthlyAppWidgetBundle.swift in Sources */,
 				665DD1022C1BA7E400FFF95B /* Color+Ext.swift in Sources */,
-				66094A592C1F497D0029DDCB /* MonthlyWidgetIntents.intentdefinition in Sources */,
+				66094A5D2C1F67550029DDCB /* Date+Ext.swift in Sources */,
 				665DD1002C1BA38200FFF95B /* MonthConfig.swift in Sources */,
 				665DD0F32C1B71AA00FFF95B /* MonthlyAppWidget.swift in Sources */,
 			);
